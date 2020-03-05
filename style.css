@@ -26,6 +26,12 @@ li {
     color: #ffffff;
     text-align: left;
 }
+.display-list {
+    display: flex;
+}
+ul {
+    width: 50%;
+}
 input {
   font-size: 45px;
   margin-bottom: 10px;

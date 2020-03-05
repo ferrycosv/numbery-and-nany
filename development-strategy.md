@@ -5,12 +5,12 @@ Building this site one step at a time
 ## 0. Setup
 
 > * index.html, style.css
-> * Basic HTML layout and style
+> * Basic HTML layout and CSS style.
 
 ## 1. Data & Log
 
-> * list.js, log.js
-> * what are you changing in each file?
+> * entries.js, log.js
+> * Creating data structure to store the state of the webpage interaction with the user functions, log data structure to save the user actions over time.
 
 ## 2. Init
 
