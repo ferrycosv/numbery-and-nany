@@ -1,8 +1,4 @@
 @font-face {
-  font-family: "lcdFont";
-  src: url("./Open\ 24\ Display\ St.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-@font-face {
   font-family: "nintender";
   src: url("./Nintender-Mm1B.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }

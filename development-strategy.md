@@ -28,3 +28,9 @@ Building this site one step at a time
 > * The user may want to remove elements from the lists of numbers and strings. 
 > * remove.js handler and listener
 > * The remove button will allow the user to remove the input text from the list, and after allow them to save again the removed entries.
+
+## 5. User Story: Reset button
+
+> * After using the app functionality the user may want to start again from scratch, to save the user a few milliseconds refreshing the page, the reset button comes handy to put everything back to the same state from the start.
+> * reset.js handler and listener
+> * Clear user input from the html input element, reset data state values and render the last state to screen.

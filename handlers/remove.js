@@ -1,5 +1,5 @@
 function removeItemHandler() {
-  debugger;
+  //debugger;
   // read new item from user input
   const newInput = document.getElementById("input").value.trim();
   if (newInput === "") {
@@ -18,6 +18,7 @@ function removeItemHandler() {
       return value !== checkNumber;
     });
   }
+  // render data state to screen
   renderList();
   // log user interaction: handler name, user input, new state
   log.push({
