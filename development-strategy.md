@@ -4,12 +4,12 @@ Building this site one step at a time
 
 ## 0. Setup
 
-> * What files do you need to create?
-> * What are you putting in each file?
+> * index.html, style.css
+> * Basic HTML layout and style
 
 ## 1. Data & Log
 
-> * which files of code do you need to create/change?
+> * list.js, log.js
 > * what are you changing in each file?
 
 ## 2. Init
