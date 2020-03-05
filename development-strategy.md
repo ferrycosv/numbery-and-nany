@@ -14,23 +14,5 @@ Building this site one step at a time
 
 ## 2. Init
 
-> * which files of code do you need to change?
-> * what are you changing in them?
-
-## 3. User Story: ___
-
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
-
-## 4. User Story: ___
-
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
-
-## 5. User Story: ___
-
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * init.js
+> * contains the code executed when the browser loads the webpage, renders the initial state of the data object 'entries' to the screen by html tags, logs the initial operation as first record in the log array.

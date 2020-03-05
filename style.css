@@ -21,16 +21,16 @@
   color: #ffffff;
 }
 li {
-    font-size: 15px;
-    font-family: "nintender";
-    color: #ffffff;
-    text-align: left;
+  font-size: 15px;
+  font-family: "nintender";
+  color: #ffffff;
+  text-align: left;
 }
 .display-list {
-    display: flex;
+  display: flex;
 }
 ul {
-    width: 50%;
+  width: 50%;
 }
 input {
   font-size: 45px;
