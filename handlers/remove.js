@@ -1,5 +1,5 @@
-function saveItemHandler() {
-  //debugger;
+function removeItemHandler() {
+  debugger;
   // read new item from user input
   const newInput = document.getElementById("input").value.trim();
   if (newInput === "") {
@@ -10,20 +10,18 @@ function saveItemHandler() {
   const checkNumber = Number(newInput);
   // check if is number or string
   if (isNaN(checkNumber)) {
-    entries.nany.push(newInput);
-    if (hasDuplicates(entries.nany)) {
-      entries.nany.pop();
-    }
+    entries.nany = entries.nany.filter(function(value, index, arr) {
+      return value !== newInput;
+    });
   } else {
-    entries.numbery.push(checkNumber);
-    if (hasDuplicates(entries.numbery)) {
-      entries.numbery.pop();
-    }
+    entries.numbery = entries.numbery.filter(function(value, index, arr) {
+      return value !== checkNumber;
+    });
   }
   renderList();
   // log user interaction: handler name, user input, new state
   log.push({
-    handler: "save button",
+    handler: "remove button",
     newInput,
     numbers: JSON.parse(JSON.stringify(entries))
   });
