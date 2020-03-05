@@ -1,4 +1,4 @@
-function RenderList() {
+function renderList() {
     const numbery = document.getElementById('numbery');
     numbery.innerHTML = '';
     for (let c of entries.numbery) {
@@ -11,7 +11,7 @@ function RenderList() {
     for (let c of entries.nany) {
         const listItem = document.createElement('li');
         listItem.innerText = c;
-        numbery.appendChild(listItem);
+        nany.appendChild(listItem);
     }
     document.getElementById('input').value = "";
 }
