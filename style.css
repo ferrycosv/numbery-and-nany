@@ -33,12 +33,12 @@ ul {
   width: 50%;
 }
 input {
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 10px;
-  font-family: "lcdFont";
+  font-family: "nintender";
   color: #00a8e8;
   background-color: dimgrey;
-  text-align: right;
+  text-align: left;
 }
 button {
   border: none;
