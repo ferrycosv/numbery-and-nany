@@ -1,13 +1,44 @@
 # Numbery & NaNy
 
-> Create a website that sorts user-provided strings into two categories, _NaNy_ and _Numbery_.  It should look like a prettier version of this:
+> Starter Code exercises to practice javascript coding and learn how to build and use a data model to save the state of the webpages, complete exercise with listeners, handlers, data, init load and logging.
 
-> ![screenshot](./screenshot.png)
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-> Further specifications:
-> * If a user inputs the same value twice, you should not save it in your app.  Your lists should never have repeated values
-> * After a user has removed a value from your state, they should be able to add it again.
+## General info
+The purpose of the project is to continue learning and using javascript on webpages, use data structures of the javascript language to save the state of webpages.
 
-> Be sure to organize your code and structure your development strategy!  You can study the [example projects](https://github.com/HackYourFutureBelgium/state/tree/master/example-projects) from this module's repo for an idea of how to do this.
+## Screenshots
+![Example screenshot](./img/screenshot.jpg)
 
-> And don't forget to rewrite this README to describe your project :) Check out these articles to learn more about writing a good README: [makeareadme.com](https://www.makeareadme.com/), [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project), [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
+## Technologies
+* HTML5
+* CSS3
+* git
+* javascript
+
+## Setup
+You can clone or fork this repository and test the files.
+
+## Features
+The project features a web site with:
+* Input box to allow the user save or remove it's content from the entries data state.
+* Save button to store input text into data object 'entries' with numbery array for all number type and nany array for the string type, it must not allow to store duplicate values.
+* Remove button to remove an entry for the list, after removing it must allow to store the value again.
+* Reset button to clear data object and restore init values.
+
+## Status
+Project is: finished, final version.
+
+## Inspiration
+[this repository](https://github.com/HackYourFutureBelgium/numbery-and-nany)
+
+## Contact
+Created by [@ferrycosv](www.github.com/ferrycosv) - feel free to contact me!
